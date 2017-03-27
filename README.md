@@ -1,7 +1,7 @@
 
 jQuery.com lists jQuery as a "fast, small, and feature-rich JavaScript library." It allows event handling, animation and Ajax (Asynchronous JavaScript and XML) via a simple to use API.  This blog post will run through some of the basics of jQuery and include  some examples that will hopefully provide for an even greater understanding of this tool.
 
-Within jQuery are a several core features that are designed to streamline tasks by reducing the amount written code. This post will briefly discuss three of them, including: DOM traversal and manipulation, event handling and Ajax. It is important to note that since jQuery is a JavaScript library, it best to have a a good foundational knowledge of not only JavaScript itself but also HTML and CSS as well.
+Within jQuery are a several core features that are designed to streamline tasks by reducing the amount written code. This post will briefly discuss two of them, including: DOM traversal and manipulation and event handling. It is important to note that since jQuery is a JavaScript library, it best to have a a good foundational knowledge of not only JavaScript itself but also HTML and CSS as well.
 
 To start  off, you need to add jQuery as a dependency into your project. There are two ways to get this done, either via local installation or a CDN based version. The first option involves navigating to the jQuery website and downloading the latest version to your machine and then storing that file in a directory for the project you're working on. Then you would  You can then include the jQuery in your html, as shown in the following example:
 
@@ -49,6 +49,8 @@ The other option is to use the jQuery with a Content Delivery Network. This allo
 
 ```
 Once these examples are run, they will produce the result of `Hey, what's good?`.
+
+Now you can utilize the features that were previously mentioned above. We can begin with DOM traversal and manipulation. DOM stands for document object model and is a programming interface for HTML, XML and SVG documents. It creates a structured representation of the document as a tree with different groups of nodes that hold different properties and methods. Nodes can also have event handlers attached to them, and once an event is triggered, they are executed (which will be explained later in event handling). Traversing the DOM means to navigate through it, like selecting specific elements within it, iteration over groups, etc. Manipulation involves making changes within the document, like the addition and removal of elements, moving them around and so forth.
 
 
 
